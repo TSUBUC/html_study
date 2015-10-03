@@ -1,0 +1,685 @@
+@charset "UTF-8";
+.main_nav ul {
+    display: inline-block;
+}
+
+.main-visual-section {
+    background: url(../img/top_bg.jpg) no-repeat;
+    background-size: 100% auto;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.main-visual-section img {
+    width: 60%;
+}
+
+.main_nav {
+    margin-bottom: 60px;
+}
+
+.main_nav li {
+    float: left;
+    margin-right: 30px;
+}
+
+.main_nav li:last-child {
+    margin-right: 0px;
+}
+
+.ec-business__section {
+    clear: both;
+    background: #F2F2F2;
+    margin-bottom: 60px;
+    padding: 40px 20px 0;
+}
+
+.ec-business__section:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.ec-business__section .btn-area {
+    clear: both;
+}
+
+.ec-business__section .btn-area a {
+    width: 200px;
+    margin-top: 40px;
+    clear: both;
+    background: #221714;
+    margin-bottom: 60px;
+    padding: 12px 20px 0;
+    color: #FEFEFE;
+    font-weight: 700;
+}
+
+.ec-business__section li {
+    float: left;
+    width: 250px;
+    margin-right: 70px;
+}
+
+.e-commerce_iqon {
+    height: 90px;
+}
+
+.ec-business_area {
+    width: 1280px;
+    margin: 0px auto 60px;
+}
+
+.social-media__area img {
+    margin-bottom: 40px important;
+}
+
+.ec-business__section li:last-child {
+    margin-right: 0px;
+}
+
+.ec-business__section img {
+    margin-bottom: 30px;
+}
+
+.clients__section {
+    clear: both;
+    margin-bottom: 60px;
+}
+
+.clients__section:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.brand-logo li:last-child {
+    margin-right: 0;
+}
+
+.brand-logo li:nth-child(5) {
+    margin-right: 0;
+}
+
+.brand-logo {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.brand-logo ul {
+    margin: 0 auto;
+    width: 100%;
+    text-align: left;
+}
+
+.brand-logo ul li {
+    width: 15%;
+    float: left;
+    margin: 0 2%;
+    display: table-cell;
+    vertical-align: middle;
+    height: 75px;
+    margin-bottom: 50px;
+}
+
+.brand-logo ul li img {
+    display: none;
+}
+/* =======================================
+    ClearFixElements
+======================================= */
+
+.brand-logo ul:after {
+    content: ".";
+    height: 0;
+    clear: both;
+    display: block;
+    visibility: hidden;
+}
+
+.brand-logo ul {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.brand-logo ul {
+    display: table;
+}
+
+.service__section {
+    margin-bottom: 60px;
+    background: #F2F2F2;
+    padding: 60px 0;
+}
+
+.service-slide {
+    width: 100%;
+}
+
+.recruit__section {
+    clear: both;
+    background: #221714;
+    color: #FEFEFE;
+    padding: 40px 0;
+    margin-bottom: 60px;
+    height: 300px;
+}
+
+.recruit__section .btn-area {
+    margin-bottom: 60px;
+}
+
+.recruit__section:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.recruit-pic_area {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.title__area li {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.team__section p {
+    margin-bottom: 50px;
+}
+
+.recruit-pic1 {
+    width: 600px;
+    margin-right: 60px;
+    float: left;
+}
+
+.recruit-pic1 img {
+    margin-bottom: 20px;
+}
+
+.recruit-pic2 img {
+    margin-bottom: 20px;
+}
+
+.recruit-pic1 li {
+    color: #040000;
+}
+
+.recruit-pic1 li:nth-child(2) {
+    margin-bottom: 20px;
+}
+/*.recruit-pic1 li:last-child {
+    font-size: 22px;
+    color: #909090;
+}*/
+
+.recruit-pic2 li:nth-child(2) {
+    margin-bottom: 20px;
+}
+/*.recruit-pic2 li:last-child {
+    font-size: 22px;
+    color: #909090;
+}*/
+
+.border-area {
+    border-bottom: 1px solid #A4A4A4;
+    width: 100px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.recruit-pic2 {
+    width: 600px;
+    margin-right: 0%;
+    float: left;
+    margin-bottom: 100px;
+}
+
+.recruit-pic2 li {
+    color: #040000;
+}
+
+.recruit-pic li:last-child {
+    margin-right: 0;
+}
+
+.team__section {
+    clear: both;
+    margin-bottom: 100px;
+    width: 1280px;
+    margin: 0 auto 100px;
+}
+
+.team__section:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.katsu-kuwano {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+}
+
+.katsu-kuwano li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.katsu-kuwano img {
+    margin-bottom: 30px;
+}
+
+.tsuyoshi_asano {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+}
+
+.tsuyoshi_asano li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.tsuyoshi_asano img {
+    margin-bottom: 30px;
+}
+
+.masanao_nishimori {
+    float: left;
+    width: 30%;
+    margin-right: 0;
+}
+
+.masanao_nishimori li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.masanao_nishimori img {
+    margin-bottom: 30px;
+}
+
+.team-pic first:child {
+    margin-bottom: 30px;
+}
+
+.team-pic li:last-child {
+    color: #909090;
+}
+
+.main-visual-section.__pc {
+    display: block;
+}
+
+.main-visual-section.__sp {
+    display: none;
+}
+
+/*==========================
+/* レスポンシブ タブレット横   */
+/*==========================*/
+
+@media screen and (max-width: 1024px) {
+    .ec-business__section {
+        width: 100%;
+    }
+    .ec-business__section li {
+        width: 220px;
+        margin-right: 40px;
+        margin-bottom: 50px;
+    }
+    .ec-business_area {
+        width: 100%;
+    }
+    .brand-logo {
+        width: 100%;
+    }
+    .brand-logo ul li {
+        width: 27%;
+        margin: 0 3%;
+        height: 115px
+    }
+    .recruit-pic_area {
+        width: 100%;
+    }
+    .recruit-pic1 {
+        width: 100%;
+    }
+    .recruit-pic2 {
+        width: 100%;
+    }
+    .team__section {
+        width: 100%;
+    }
+    .katsu-kuwano {
+        width: 29%;
+    }
+    .tsuyoshi_asano {
+        width: 29%;
+    }
+    .masanao_nishimori {
+        width: 29%;
+    }
+    .contact-us__area li {
+        width: 24%
+    }
+    .copy-right {
+        float: right;
+        margin-top: -40px;
+    }
+    .footer-nav__left {
+        margin-left: 10px;
+        padding-bottom: 40px;
+    }
+    /*==========================*/
+    /* レスポンシブ タブレット横   end*/
+    /*==========================*/
+}
+/*==========================
+/* レスポンシブ タブレット縦  */
+/*==========================*/
+
+@media screen and (max-width: 880px) {
+    /*共通*/
+    
+    .ec-business__section {
+        width: 100%;
+    }
+    .ec-business__section li {
+        width: 335px;
+        margin-right: 40px;
+        margin-bottom: 50px;
+    }
+    .ec-business_area {
+        width: 100%;
+    }
+    .brand-logo {
+        width: 100%;
+    }
+    .brand-logo ul li {
+        width: 27%;
+        margin: 0 3%;
+        height: 115px
+    }
+    .recruit-pic_area {
+        width: 100%;
+    }
+    .recruit-pic1 {
+        width: 100%;
+    }
+    .recruit-pic2 {
+        width: 100%;
+    }
+    .team__section {
+        width: 100%;
+    }
+    .katsu-kuwano {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .tsuyoshi_asano {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .masanao_nishimori {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .contact-us__area li {
+        width: 17%
+    }
+    .copy-right {
+        float: none;
+    }
+    .footer-nav__left {
+        margin-left: 190px;
+        padding-bottom: 40px;
+    }
+    /*==========================*/
+    /* レスポンシブ タブレット縦   end*/
+    /*==========================*/
+}
+/*==========================
+/* レスポンシブ スマートフォン   */
+/*==========================*/
+
+@media screen and (max-width: 640px) {
+    .page {
+        width: 100%;
+    }
+    .main-visual-section img {
+        width: 100%;
+        margin-top: -20px;
+    }
+    .g--header .g--account {
+        top: 45px;
+        right: 8px;
+        display: none;
+    }
+    .g--news li {
+        font-size: 9px;
+        letter-spacing: 1px;
+    }
+    .g--news li a {
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+    .g--news {
+        text-align: left;
+    }
+    .main_nav li {
+        float: none;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .main_nav ul {
+        padding-top: 60px;
+    }
+    .main_nav {
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .main_nav li:nth-child(3) {
+        position: absolute;
+        top: 0;
+        right: -30px;
+    }
+    .main-visual-section {
+        background: none;
+    }
+    .main-visual-section {
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    .main-visual-section.__pc {
+        display: none;
+    }
+    .main-visual-section.__sp {
+        display: block;
+    }
+    .__title {
+        margin-bottom: 20px;
+    }
+    .__subtitle {
+        font-size: 18px;
+    }
+    .ec-business__section {
+        width: 100%;
+        padding: 40px 0px;
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+    .ec-business__section .btn-area a {
+        width: 60%;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .ec-business_area {
+        width: 100%;
+    }
+    .ec-business__section li {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .ec-business__section li p {
+        padding: 0 20px;
+    }
+    .ec-business.__title img {
+        width: 45%;
+    }
+    .clients__section {
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .clients.__title img {
+        width: 40%;
+    }
+    .brand-logo ul li {
+        margin: 0 4%;
+    }
+    .brand-logo {
+        width: 100%;
+    }
+    .brand-logo ul li {
+        width: 40%;
+    }
+    .brand-logo img {
+        width: 110%;
+    }
+    .recruit__section {
+        width: 100%;
+    }
+    .recruit__section img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .recruit-pic1 li:nth-child(2) {
+        padding: 0 10px;
+    }
+    .recruit-pic2 li:nth-child(2) {
+        padding: 0 10px;
+    }
+    .recruit__section .btn-area {
+        margin-bottom: 20px;
+    }
+    .recruit-pic_area {
+        width: 100%;
+    }
+    .recruit-pic1 {
+        width: 100%;
+    }
+    .btn-area a {
+        width: 50%;
+    }
+    .recruit-pic2 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .team__section {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .team__section p {
+        padding: 0 10px;
+    }
+    .katsu-kuwano {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .katsu-kuwano img {
+        margin-bottom: 10px;
+    }
+    .tsuyoshi_asano {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .tsuyoshi_asano img {
+        margin-bottom: 10px;
+    }
+    .masanao_nishimori {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .masanao_nishimori img {
+        margin-bottom: 10px;
+    }
+    .title__area img {
+        width: 100%;
+    }
+    .g--footer clearfix {
+        width: 90%;
+    }
+    .contact-us__area {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .contact-us__area li {
+        width: 100%;
+    }
+    .contact-us__area img {
+        width: 10%;
+    }
+    .contact-us__section {
+        padding: 30px 0;
+    }
+    .contact-us-title {
+        margin-bottom: -50px;
+    }
+    .contact-us__area li:last-child {
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .footer-nav__left {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .footer-nav__left li a {
+        font-size: 12px;
+    }
+    .footer-nav__left ul {
+        display: inline-block;
+    }
+    .footer-nav__left li {
+        display: inline-block;
+        text-align: center;
+        float: none;
+    }
+    .footer-nav__left:after {
+        content: ".";
+        display: block;
+        clear: both;
+        height: 0;
+        visibility: hidden;
+    }
+    .copy-right {
+        width: 100%;
+        margin-top: 30px;
+        margin-right: 0;
+    }
+    .copy-right p {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    .contact-us__area li {
+        margin-bottom: 40px;
+    }
+
+    }
+    /*==========================*/
+    /* レスポンシブ スマートフォン   end*/
+    /*==========================*/
+}
